@@ -1,8 +1,8 @@
 let selection = document.querySelector('select');
 let body = document.querySelector('body');
+let sideNav = document.querySelectorAll('.sidebar-navigation li');
 
-selection.addEventListener('change', function(){
-    
+selection.addEventListener('change', function(){ 
     if(selection.value == 'default-theme'){
         body.classList.replace('sys-theme', 'default-theme');
         body.classList.replace('dark-theme', 'default-theme');
@@ -13,4 +13,10 @@ selection.addEventListener('change', function(){
     }
 })
 
-
+for(let i = 0; i < sideNav.length; i++){
+    sideNav[i].onclick = function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    }
+}
