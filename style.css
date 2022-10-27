@@ -42,6 +42,7 @@ header{
     text-decoration: none;
     color: white;
 }
+
 .theme-selection{
     padding: 10px;
     border: none;
@@ -51,4 +52,16 @@ header{
 .sys-dark-theme{
     background-color: black;
     color: white;
+}
+
+.sidebar-container{
+    display: flex;
+    align-items: flex-start;
+}
+.sys-sidebar{
+    width: 13%;
+}
+
+.sidebar-content{
+    width: 100%;
 }

@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sys Sample Project</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://programming-ashram.github.io/sys-design-system/css/style.css">
+    <link rel="stylesheet" href="https://programming-ashram.github.io/sys-design-system/css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body class="sys-theme">
@@ -47,104 +47,139 @@
             </div>
         </div>
     </header>
-   <section>
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="sys-designs">
-                        <table>
-                            <thead>
-                                <th>
-                                    Variations
-                                </th>
-                                <th>
-                                    Accent
-                                </th>
-                                <th>
-                                    Alert 
-                                </th>
-                                <th>
-                                    Olive 
-                                </th>
-                                <th>
-                                    Error 
-                                </th>
-                                <th>
-                                    Disabled 
-                                </th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>
-                                        Sys Statndard Button
-                                    </th>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-accent">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-alert">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-olive">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-error">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="btn" class="sys-btn-outline-disable" disabled="true">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        Sys Outline Button
-                                    </th>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-outline-accent">
-                    
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-outline-alert">
-                    
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-outline-olive">
-                    
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="button" class="sys-btn-outline-error">
-                    
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                    <td>
-                                        <button type="button" role="btn" class="sys-btn-outline-disable" disabled="true">
-                                            Sys Button
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="sidebar-container">
+                <div class="sys-sidebar">
+                    <div class="sidebar-navigation">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Sys Button
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="sys-designs">
+                                    <table>
+                                        <thead>
+                                            <th>
+                                                Variations
+                                            </th>
+                                            <th>
+                                                Accent
+                                            </th>
+                                            <th>
+                                                Alert 
+                                            </th>
+                                            <th>
+                                                Olive 
+                                            </th>
+                                            <th>
+                                                Error 
+                                            </th>
+                                            <th>
+                                                Secondary 
+                                            </th>
+                                            <th>
+                                                Disabled 
+                                            </th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    Sys Statndard Button
+                                                </th>
+                                                <td>
+                                                    <button 
+                                                        type="button"
+                                                        role="button" 
+                                                        class="sys-btn-accent">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-alert">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-olive">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-error">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-secondary">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="btn" class="sys-btn-outline-disable" disabled="true">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Sys Outline Button
+                                                </th>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-outline-accent">
+                                
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-outline-alert">
+                                
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-outline-olive">
+                                
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-outline-error">
+                                
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="button" class="sys-btn-outline-secondary">
+                                
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" role="btn"    class="sys-btn-outline-disable" disabled="true">
+                                                        Sys Button
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-   </section>
+    </section>
+
 
     <script src="app.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
