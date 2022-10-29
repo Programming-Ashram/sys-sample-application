@@ -36,10 +36,12 @@
                                 </a>
                             </li>
                             <li>
-                                <select name="" id="" class="theme-selection">
-                                    <option value="default-theme">Default</option>
-                                    <option value="dark-theme">Dark</option>
-                                </select>
+                                <div class="sys-switch-secondary">
+                                    <label class="sys-switch-label">
+                                        <input type="checkbox" id="theme" onchange="themeSelection()">
+                                        <span class="sys-slider round"></span>
+                                    </label>    
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -294,9 +296,17 @@
                                             </div>
                                         </td>
                                         <td>   
-                                            <div class="sys-switch-seconadary">
+                                            <div class="sys-switch-secondary">
                                                 <label class="sys-switch-label">
                                                     <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
+                                        </td>
+                                        <td>   
+                                            <div class="sys-switch-secondary">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked disabled>
                                                     <span class="sys-slider round"></span>
                                                 </label>    
                                             </div>
