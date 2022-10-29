@@ -12,6 +12,9 @@ table{
 tr{
     margin-bottom: 10px;
 }
+tbody tr th{
+    width: 162px;
+}
 .row{
     display: flex;
     align-items: center;
@@ -50,7 +53,9 @@ header{
     border: none;
     border-radius: 4px;
 }
-
+th{
+    font-size: 13px;
+}
 .sys-dark-theme{
     background-color: black;
     color: white;
@@ -63,9 +68,7 @@ header{
     align-items: flex-start;
 }
 .sys-sidebar{
-    width: 16%;
-    box-shadow: 0px 4px 13px 0px #8080800f;
-    width: 16%;
+    width: 14%;
     box-shadow: 0px 4px 13px 0px #8080800f;
     height: 460px;
     overflow-y: scroll;
@@ -74,7 +77,7 @@ header{
 
 .sidebar-content{
     width: 100%;
-   margin-left: 200px;
+    margin-left: 179px;
 }
 .sidebar-navigation {
     padding: 10px;
@@ -120,6 +123,6 @@ header{
 }
 
 .sys-sidebar::-webkit-scrollbar-thumb {
-background-color: darkgrey;
-outline: 1px solid rgb(196, 201, 206);
+    background-color: darkgrey;
+    outline: 1px solid rgb(196, 201, 206);
 }
