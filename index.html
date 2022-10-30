@@ -49,6 +49,7 @@
             </div>
         </div>
     </header>
+    
     <section>
         <div class="container">
             <div class="sidebar-container">
@@ -62,18 +63,18 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#sys-badge">
-                                    Sys Badge 
+                                <a href="#sys-btn-group">
+                                    Sys Button Group 
                                 </a>
                             </li>
                             <li>
-                                <a href="#sys-breadcrumb">
-                                    Sys Breadcrumb
+                                <a href="#sys-elevation">
+                                    Sys Elevation
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Sys Button
+                                <a href="#sys-switch">
+                                    Sys Toggle Switchs
                                 </a>
                             </li>
                             <li>
@@ -153,7 +154,6 @@
                                     </th>
                                 </thead>
                                 <tbody>
-
                                     <tr>
                                         <th>
                                             Sys Statndard Button
@@ -192,8 +192,7 @@
                                                 Sys Button
                                             </button>
                                         </td>
-                                    </tr>
-                                   
+                                    </tr>                                  
                                     <tr>
                                         <th>
                                             Sys Outline Button
@@ -234,7 +233,6 @@
                                             </button>
                                         </td>
                                     </tr>
-                                   
                                     <tr>
                                         <th>
                                             Sys Button Sizing (lg, sm)
@@ -258,110 +256,143 @@
                                             </button>
                                         </td>
                                     </tr>
-
-                                    <tr>
-                                        <th>
-                                            Button Toggle Switch
-                                        </th>
-                                        <td>   
-                                            <div class="sys-switch-accent">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                        <td>   
-                                            <div class="sys-switch-olive">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                        <td>   
-                                            <div class="sys-switch-error">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                        <td>   
-                                            <div class="sys-switch-alert">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                        <td>   
-                                            <div class="sys-switch-secondary">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                        <td>   
-                                            <div class="sys-switch-secondary">
-                                                <label class="sys-switch-label">
-                                                    <input type="checkbox" checked disabled>
-                                                    <span class="sys-slider round"></span>
-                                                </label>    
-                                            </div>
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
-                            <div class="bt-group">
+                        </div>
+
+                        <div class="sys-component" id="sys-btn-group">
+                            <div class="btn-group">
                                 <h3 class="sys-title">
                                     Sy Button Standard Group
                                 </h3>
-                                <div class="sys-btn-group">
-                                    <button type="button" role="btn" class="sys-btn-accent">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-secondary">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-alert">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-olive">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-error">
-                                         Sys Button
-                                     </button>
-                                 </div>
-                                 <h3 class="sys-title">
-                                    Sy Button Outline Standard Group
+                                <div class="d-flex sys-title">
+                                    <div class="sys-btn-group">
+                                        <button type="button" role="btn" class="sys-btn-accent">
+                                            Sys Button
+                                        </button>
+                                        <button type="button" role="btn" class="sys-btn-secondary">
+                                            Sys Button
+                                        </button>
+                                        <button type="button" role="btn" class="sys-btn-alert">
+                                            Sys Button
+                                        </button>
+                                        <button type="button" role="btn" class="sys-btn-olive">
+                                            Sys Button
+                                        </button>
+                                        <button type="button" role="btn" class="sys-btn-error">
+                                            Sys Button
+                                        </button>
+                                    </div>
+                                    <div class="sys-btn-group">
+                                        <button type="button" role="btn" size="lg" class="sys-btn-accent">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" size="lg" class="sys-btn-olive">
+                                             Sys Button
+                                         </button>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <h3 class="sys-title">
+                                    Sy Button Standard Group
                                 </h3>
-                                <div class="sys-btn-group">
-                                    <button type="button" role="btn" class="sys-btn-outline-accent">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-outline-secondary">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-outline-alert">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-outline-olive">
-                                         Sys Button
-                                     </button>
-                                     <button type="button" role="btn" class="sys-btn-outline-error">
-                                         Sys Button
-                                     </button>
+                                 <div class="d-flex sys-title">   
+                                    <div class="sys-btn-group">
+                                        <button type="button" role="btn" class="sys-btn-outline-accent">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" class="sys-btn-outline-secondary">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" class="sys-btn-outline-alert">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" class="sys-btn-outline-olive">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" class="sys-btn-outline-error">
+                                             Sys Button
+                                         </button>
+                                     </div>
+                                     <div class="sys-btn-group">
+                                        <button type="button" role="btn" size="sm" class="sys-btn-outline-accent">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" size="sm" class="sys-btn-outline-secondary">
+                                             Sys Button
+                                         </button>
+                                         <button type="button" role="btn" size="sm" class="sys-btn-outline-alert">
+                                             Sys Button
+                                         </button>
+                                     </div>
                                  </div>
                             </div>
                         </div>
 
-                        <div class="sys-component" id="sys-badge">
-                            <h3 class="sys-title">SYS BADGE</h3>
-                            <table>
-                              
+                        <div class="sys-component" id="sys-elevation">
+                            <div class="elevations">
+                                <h3 class="sys-title">
+                                    Elevations
+                                </h3>
+                                <div class="d-flex sys-title">
+                                    <div class="sys-elevation">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>
+                                    <div class="sys-elevation-v1">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>
+                                    <div class="sys-elevation-v2">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>
+                                    <div class="sys-elevation-v3">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>                                
+                                </div>
+                                <div class="d-flex sys-title">
+                                    <div class="sys-elevation-v4">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>
+                                    <div class="sys-elevation-v5">
+                                        <h1 class="elevation-title">
+                                            Elevation
+                                        </h1>
+                                        <p class="elevation-content">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet, tempore odit,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sys-component" id="sys-switch">
+                            <h3 class="sys-title">SYS Switch</h3>
+                            <table>    
                                 <thead>
                                     <th>
                                         Variations
@@ -388,85 +419,57 @@
                                 <tbody>
                                     <tr>
                                         <th>
-                                            Sys Statndard Button
+                                            Button Toggle Switch
                                         </th>
-                                        <td>
-                                            <button 
-                                                type="button"
-                                                role="button" 
-                                                class="sys-btn-accent">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-accent">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-alert">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-alert">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-olive">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-olive">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-error">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-error">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-secondary">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-secondary">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
-                                        <td>
-                                            <button type="button" role="btn" class="sys-btn-outline-disable" disabled="true">
-                                                Sys Button
-                                            </button>
+                                        <td>   
+                                            <div class="sys-switch-secondary">
+                                                <label class="sys-switch-label">
+                                                    <input type="checkbox" checked disabled>
+                                                    <span class="sys-slider round"></span>
+                                                </label>    
+                                            </div>
                                         </td>
                                     </tr>
-                                
-                                   
-                                    <tr>
-                                        <th>
-                                            Sys Outline Button
-                                        </th>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-outline-accent">
-                        
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-outline-alert">
-                        
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-outline-olive">
-                        
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-outline-error">
-                        
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" role="button" class="sys-btn-outline-secondary">
-                        
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button type="button" role="btn"    class="sys-btn-outline-disable" disabled="true">
-                                                Sys Button
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    
                                 </tbody>
                             </table>
                         </div>
