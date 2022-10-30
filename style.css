@@ -85,7 +85,7 @@ th{
     align-items: flex-start;
 }
 .sys-sidebar{
-    width: 14%;
+    width: 12%;
     box-shadow: 0px 4px 13px 0px #8080800f;
     height: 460px;
     overflow-y: scroll;
@@ -159,7 +159,7 @@ th{
         transition: 0s;
     }
     to{
-        background-color: black;
+        background-color: #303030;
         transition: 0.6s;
     }
 }
@@ -171,7 +171,7 @@ th{
 
 @keyframes slide1{
     from{
-        background-color: black;
+        background-color: #303030;
         transition: 0s;
     }
     to{
