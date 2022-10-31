@@ -91,6 +91,17 @@ th{
     overflow-y: scroll;
     position: fixed;
 }
+.bg-olive{
+    background-color: greenyellow;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    width: 100%;
+}
 
 .sidebar-content{
     width: 100%;
