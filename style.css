@@ -94,6 +94,9 @@ th{
 .bg-olive{
     background-color: greenyellow;
 }
+label{
+    font-size: 12px;
+}
 .row{
     display: flex;
     justify-content: space-between;
