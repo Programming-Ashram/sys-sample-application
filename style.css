@@ -26,10 +26,7 @@ tbody tr th{
     width: 95%;
     margin: 0 auto;
 }
-header{
-    
-    color: white;
-    margin-bottom: 30px;
+header{color: white;
     position: sticky;
     top: 0;
     z-index: 9999;
